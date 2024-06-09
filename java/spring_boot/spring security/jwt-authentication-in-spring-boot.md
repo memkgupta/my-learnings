@@ -212,3 +212,5 @@ return config.getAuthenticationManager();
 
 > [!NOTE]
 > We added the `JwtAuthFilter` before the Spring Security internal `UsernamePasswordAuthenticationFilter`. We’re doing this because we need access to the user identity at this point to perform authentication/authorization, and its extraction happens inside the JWT token filter based on the provided JWT token and a further UsernamePasswordAuthenticationToken is provided to ensure the request is authenticated.
+
+This is it . I tried my best to explain it and if there is any  mistake you can comment it , as I am also learning and i made this as a self learning note and i made it public so that i can receive feedback and correct my concepts. Thx for reading 
