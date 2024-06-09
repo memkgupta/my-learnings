@@ -30,7 +30,7 @@ Java Configuration : Uses Java-based configuration to set up security features. 
 
 
 # Spring Security Architecture
- ![[Pasted image 20240609102306.png]]
+ ![[spring-security-architecture.png]]
 
 ### Spring Security Filters Chain
 
